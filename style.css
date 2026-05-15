@@ -9,7 +9,7 @@ html {
 
 body {
     margin: 0;
-    background-color: rgb(12, 12, 12);
+    background-color: rgb(from black 0 7 0);
     color: white;
     text-shadow: 0 0 3px rgb(181, 181, 181);
     font-family: "UbuntuMono", monospace;
