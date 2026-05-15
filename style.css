@@ -56,3 +56,7 @@ main {
 .command ul li a {
     color: white;
 }
+
+p {
+    white-space: pre-line;
+}

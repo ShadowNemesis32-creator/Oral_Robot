@@ -1,20 +1,40 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Robot intélligent</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <header>
-        <h1><span class="user">mra</span><span class="host">@</span><span class="user">oral</span><span class="host">:~$</span><span class="text">./bot</span></h1>
+        <h1><span class="user">mra</span><span class="host">@</span><span class="user">oral</span><span
+                class="host">:~$</span><span class="text">./bot</span></h1>
     </header>
 
     <main>
         <h1>Robot intélligent</h1>
         <p> Voici le code que nous avons créé pour faire un robot intélligent : </p>
         <img src="images/Capture d'écran 2026-05-15 141315.png" alt="" width="600" height="auto">
+        <p>Le code est composé d'une boucle répéter indéfiniment (while True en python).
+            En premier nous créons une variable "distance" qui va stocker la valeur du
+            capteur ultrason du robot. Ensuite nous demandons au robot d'attendre 100ms
+            avant d'éxecuter le calcul de la distance car sinon le n'exécutera pas les
+            calculs de distances car la boucle se répète trop vite.
+        </p>
+        <p>
+            Ensuite nous entrons dans un block condition "si" (if en python) ce qui va 
+            permettre d'exécuter du code précis dans une ou des conditions précises.
+            Dans notre cas nous vérifions la distance mesurée par le capteur ultrason
+            plus la distance est petite plus un obstacle est proche. Donc si la distance
+            est entre 10cm et 30cm alors les leds sont jaunes, le robot ralentit et tourne,
+            sinon si il y a un obstacle à 10cm ou moins alors les leds deviennent rouges,
+            le robot s'arrête et tourne. Sinon les leds sont vertes et le robot roule
+            normalement.
+        </p>
     </main>
 </body>
+
 </html>
