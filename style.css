@@ -46,7 +46,8 @@ main {
 .command {
     display: flex;
     align-content: baseline;
-    gap: 100px;
+    gap: 5rem;
+    flex-wrap: wrap;
 }
 
 .command ul li {
