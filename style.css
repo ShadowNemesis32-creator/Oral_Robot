@@ -1,0 +1,58 @@
+@font-face {
+    font-family: UbuntuMono;
+    src: url("/fonts/UbuntuMono-R.ttf");
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    background-color: rgb(12, 12, 12);
+    color: white;
+    text-shadow: 0 0 3px rgb(181, 181, 181);
+    font-family: "UbuntuMono", monospace;
+}
+
+header h1 {
+    padding: 20px;
+}
+
+header p {
+    padding: 20px;
+}
+
+.user {
+    color: rgb(0, 222, 0);
+    text-shadow: 0 0 5px rgb(0, 222, 0);
+}
+
+.host {
+    color: gray;
+}
+
+.text {
+    color: white;
+    text-shadow: 0 0 5px rgb(181, 181, 181);
+    padding: 20px;
+}
+
+main {
+    padding-left: 20px;
+    font-size: 100%;
+}
+
+.command {
+    display: flex;
+    align-content: baseline;
+    gap: 100px;
+}
+
+.command ul li {
+    list-style: none;
+}
+
+.command ul li a {
+    color: white;
+}
